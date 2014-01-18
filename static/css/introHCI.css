@@ -1,34 +1,52 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+    /* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+    color: #CC00AA;
 }
 
 /* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
+the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+    border: 1px dotted gray;
+    padding: 20px;
+    font-family:helvetica, sans-serif;
+}
+#header {
+    color:#4d4d4d;
+    background-color:#dddddd;
+}
+.grey_font  {
+    color:#666666;
 }
 
-.jumbotron {
-	position: relative;
-	background: none;
+.red_font {
+    color:#ff4040;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;	
+.imgBox {
+    width:580px;
+    height:280px;
+    position:relative;
 }
+
+.imgText {
+    color:white;
+    background-color:#a7bdb9;
+    z-index:100;
+    position:absolute;
+}
+
+.project {
+    margin-left:30px;
+    background-color:#a7bdb9;
+    padding: 20px;
+    width: 595px;
+    margin-bottom:15px;
+}
+
+
